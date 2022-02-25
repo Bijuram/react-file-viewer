@@ -19,6 +19,7 @@ import {
 
 class FileViewer extends Component {
   divRef = React.createRef(); 
+  
   constructor(props) {
     super(props);
     this.state = {
