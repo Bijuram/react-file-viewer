@@ -18,6 +18,7 @@ import {
 } from './drivers';
 
 class FileViewer extends Component {
+  divRef = React.createRef();
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +27,7 @@ class FileViewer extends Component {
   }
 
   componentDidMount() {
-    const container = document.getElementById('pg-viewer');
+    const container = this.divRef.current;
     const height = container ? container.clientHeight : 0;
     const width = container ? container.clientWidth : 0;
     this.setState({ height, width });
