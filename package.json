@@ -1,12 +1,12 @@
 {
-  "name": "react-file-viewer",
+  "name": "@bijuram/react-file-viewer",
   "version": "1.2.1",
   "description": "Extendable file viewer for web",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plangrid/react-file-viewer.git"
+    "url": "git+https://github.com/bijuram/react-file-viewer.git"
   },
   "scripts": {
     "dev": "webpack -d --watch",
@@ -120,5 +120,8 @@
         "webpack": "webpack.config.js"
       }
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,22 +1,23 @@
-
 # react-file-viewer
 
 Extendable file viewer for web
 
 ## Supported file formats:
 
- - Images: png, jpeg, gif, bmp, including 360-degree images
- - pdf
- - csv
- - xslx
- - docx
- - Video: mp4, webm
- - Audio: mp3
-
+- Images: png, jpeg, gif, bmp, including 360-degree images
+- pdf
+- csv
+- xslx
+- docx
+- Video: mp4, webm
+- Audio: mp3
 
 ## Usage
 
-Note this module works best with react 16+.  If you are using React < 16 you will likely need to use version 0.5. `npm install react-file-viewer@0.5.0`.
+This is a fork of PlanGrid's react-file-viewer. It appears that PlanGrid have decided to not maintain their version, as there are numerous pull requests and bugs open that have not been addressed. Therefore the only course of action is to fork.
+The main reason for this fork is an attempted fix for multiple images getting loaded together instead of separately.
+
+Note this module works best with react 16+. If you are using React < 16 you will likely need to use version 0.5. `npm install react-file-viewer@0.5.0`.
 
 There is one main React component, `FileViewer`, that takes the following props:
 
